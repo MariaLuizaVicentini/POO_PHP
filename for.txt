@@ -1,0 +1,34 @@
+for em PHP:
+	→ O 	for 	é uma estrutura de controle de repetição
+	→ Uma forma que o PHP oferece para repetir um bloco de código um número conhecido de vezes 
+	
+	Ou seja:
+		→  Usamos 	for	quando queremos saber quantas vezes queremos repetir algo
+
+Sintaxe:
+	<?php
+		for (inicialização; condição; incremento) {
+			//código que será repetido
+		}
+		
+	?>
+
+Cada parte ente os parenteses tem uma função especifica:
+	Inicialização:
+		→ Defini uma variavel de controle 
+		→ Executa quando: 
+			- Apenas uma vez antes do loop começar
+	Condição:
+		→ Define até quando o loop deve continuar 
+		→ Executa quando: 
+			- Verifica antes de cada repetição
+	Incremento:
+		→ Altera o valor da variável de controle 
+		→ Executa quando: 
+			- No final de cada repetição
+
+
+Visualizando mentalmente o ciclo de for
+	INICIALIZAÇÃO → CONDIÇÃO ? →  BLOCO DE CÓDIGO → INCREMENTO → (Volta para a CONDIÇÃO)
+
+	* Isso se repete até a condição ser falsa
