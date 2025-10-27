@@ -1,0 +1,14 @@
+A palavra Abstract indica que o método vai ser desenvolvido do lado de fora da interface, dentro de uma class
+
+ex:
+
+<pre>
+    <?php
+    
+        interface Controlador;
+            public abstract aumentarVolume();
+    
+    
+    ?>
+
+</pre>
